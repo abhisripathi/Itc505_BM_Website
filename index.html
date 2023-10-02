@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart EduTech</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Smart EduTech</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="signin">Sign In</a></li>
+                <li><a href="#" class="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <img src="images/image8.jpeg" alt="E-learning with Smart EduTech">
+            <div class="hero-content">
+                <h1>Welcome to Smart EduTech</h1>
+                <p>Your premier platform for online learning.</p>
+                <!--<a href="#" class="cta-btn">Start Learning</a>-->
+                <a href="#featured-courses" class="cta-btn">Start Learning</a>
+
+            </div>
+        </section>
+    
+        <!-- Featured Courses -->
+        <section id="featured-courses">
+            <h2>Featured Courses</h2>
+            <div class="course-card">
+                <img src="images/image3.png" alt="Course 1">
+                <h3>5 Best Web Development Courses to Take in 2023</h3>
+                <p>Learn how to build websites in this guide with the best web development courses.</p>
+                <a href="https://www.classcentral.com/report/best-web-development-courses/" target="_blank">Learn More</a>
+            </div>
+            <div class="course-card">
+                <img src="images/image4.png" alt="Course 2">
+                <h3>Amazon Web Services Certification Course for Solutions Architect – Associate</h3>
+                <p>AWS training is a comprehensive learning course for Solutions Architecture that will help you develop and validate your cloud skills and also prepares for the Certified Solutions Architect Associates Exam. </p>
+                <a href="https://uahtechnologies.com/aws-training/" target="_blank">Learn More</a>
+            </div>
+            <!-- Repeat for more courses... -->
+        </section>
+    
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <h2>Join the Future of Education</h2>
+            <p>Sign up now and start your journey with Smart EduTech.</p>
+            <a href="#" class="cta-btn" id="signupBtn">Sign Up</a>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <div class="contact-info">
+            <p>Contact: contact@smartedutech.com | Phone: +1-234-567-890</p>
+        </div>
+        <div class="social-media">
+            <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+        </div>
+        <div class="copyright">
+            <p>Smart EduTech &copy; 2023. All rights reserved.</p>
+        </div>
+    </footer>
+
+<!-- Modal -->
+<div class="modal" id="signupModal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Sign Up</h2>
+        <form>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email ID" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
